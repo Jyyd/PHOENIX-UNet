@@ -1,0 +1,19 @@
+## test1: 2025.5.25
+# -----------------basic network parameters ----------------
+base_ch: 16          # UNet etc. basic channel number (network width, the larger the more complex)
+fuse_dim: 16         # Intermediate dimension after fusing element/point information
+depth: 4             # Encoder-Decoder layers/depth
+model_type: phenunet  # Model type (phenunet, onlyunet, onlycnn, phencnn.)
+# ---------------- training related --------------------
+batch_size: 8       # Training batch size
+num_epochs: 10      # Total training epoch number
+lr: 0.001            # Initial learning rate of Adam optimizer
+loss_type: mse       # Loss function type (mse, mae, masked_mse, etc.)
+seed: 42             # Random seed to ensure experiment reproducibility
+# ---------------- path related --------------------
+npz_train_dir: './dataset/preprocessed_npz/train/'
+npz_val_dir: './dataset/preprocessed_npz/val/'
+npz_test_dir: './dataset/preprocessed_npz/test/'
+train_txt: './dataset/data_split/example_train.txt'
+val_txt: './dataset/data_split/example_val.txt'
+test_txt: './dataset/data_split/example_test.txt'
