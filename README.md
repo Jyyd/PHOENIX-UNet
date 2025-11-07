@@ -276,10 +276,10 @@ R²    : 0.934938
 
 **Outputs:**
 
-* Best model checkpoint → `./results/exps/.../model/best_model.pt`
-* Training/validation logs → `./results/exps/.../log/`
-* Test predictions & metrics → `./results/exps/.../pred_npz/test_pred_npz/`
-* Figures and plots → `./results/exps/.../figures/`
+* Best model checkpoint: `./results/exps/.../model/best_model.pt`
+* Training/validation logs: `./results/exps/.../log/`
+* Test predictions & metrics: `./results/exps/.../pred_npz/test_pred_npz/`
+* Figures and plots: `./results/exps/.../figures/`
 
 ---
 ## 5.Citation
@@ -289,4 +289,5 @@ If you find this repo useful, please cite our paper.
 ---
 ## 6.Contact
 If you have any questions or suggestions, feel free to contact:
+
 - Yudie Jianyao (Ph.D. student, jyyd23@mails.tsinghua.edu.cn)
