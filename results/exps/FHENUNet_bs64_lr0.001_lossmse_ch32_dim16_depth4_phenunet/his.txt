@@ -1,0 +1,5 @@
+exp_name: FHENUNet_bs64_lr0.001_lossmse_ch32_dim16_depth4_phenunet
+model_type: phenunet, base_ch: 32, depth: 4, fuse_dim: 16
+batch_size: 64, num_epochs: 100, lr: 0.001, loss_type: mse
+param_count: 4300113
+Total training time: 4365.97 s
