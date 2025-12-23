@@ -25,9 +25,9 @@ class PhysicsEnhanced(nn.Module):
         return self.act(self.conv(x))
 
 # =======================
-# A) PHENUNet pyhsics-enhanced U-Net
+# A) PHOENIX-UNet pyhsics-enhanced U-Net
 # =======================
-class PHENUNet(nn.Module):
+class PHOENIXUNet(nn.Module):
     '''
     U-Net architecture with PhysicsEnhanced fusion at each level.
     Arguments:
@@ -146,9 +146,9 @@ class OnlyCNN(nn.Module):
         return out
     
 # =======================
-# C) Physics Enhanced CNN
+# C) CNN-Embed
 # =======================
-class PHENCNN(nn.Module):
+class CNNEmbed(nn.Module):
     '''
     A simple CNN with PhysicsEnhanced fusion at each layer.
     Arguments:
