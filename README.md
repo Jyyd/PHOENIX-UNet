@@ -44,7 +44,7 @@ PHEN-UNet/
 │  └─ test.png                        # Example of preprocessed testing sample
 │
 ├─ Networks/                          # Neural network architectures
-│  └─ Networks.py                     # Implementation of PHEN-UNet, PHEN-CNN, Only-UNet, and Only-CNN
+│  └─ Networks.py                     # Implementation of PHOENIX-UNet, CNN-Embed, Only-UNet (Unet-Basic), and Only-CNN (CNN-Baisc)
 │
 ├─ pre_data.py                        # Preprocessing dataset
 │
@@ -148,7 +148,7 @@ The dataset is provided as `.npz` files. Each file contains the following arrays
 * **`points_4`, `points_8`, `points_16`, `points_32`, `points_64`, `points_128`, `points_256`, `points_512`** – Sampling point data at different spatial resolutions
 
 ---
-### 4.4 How to Run FHENUNet?
+### 4.4 How to Run PHOENIX-UNet?
 
 #### 4.4.1 Preprocess the Data
 
@@ -215,7 +215,7 @@ npz_test_dir: ./dataset/preprocessed_npz/test
 train_txt: ./dataset/data_split/example_train.txt
 val_txt: ./dataset/data_split/example_val.txt
 test_txt: ./dataset/data_split/example_test.txt
-model_type: phenunet   # options: phenunet, onlyunet, onlycnn, phencnn
+model_type: phoenixunet   # options: phoenixunet, onlyunet, onlycnn, cnnembed
 base_ch: 32
 fuse_dim: 16
 depth: 4
@@ -239,7 +239,7 @@ A typical console output looks like:
 ```
 Trying on GPU 0 ...
 [INFO] Using device: cuda:0
-[INFO] Experiment results will be saved to ./results/exps/FHENUNet_bs64_lr0.001_lossmse_ch32_dim16_depth4_phenunet
+[INFO] Experiment results will be saved to ./results/exps/PHOENIXUNet_bs64_lr0.001_lossmse_ch32_dim16_depth4_phoenixunet
 [INFO] Model parameter count: 4,300,113
 
 Epoch 001 | Train Loss(mse): 0.800153 | Val Loss(mse): 0.598748 | 
@@ -271,7 +271,7 @@ MAE   : 0.088473
 MSE   : 0.065781
 RMSE  : 0.231582
 IoU   : 0.894143
-R²    : 0.934938
+R2    : 0.934938
 ```
 
 **Outputs:**
@@ -291,3 +291,4 @@ If you find this repo useful, please cite our paper.
 If you have any questions or suggestions, feel free to contact:
 
 - Yudie Jianyao (Ph.D. student, jyyd23@mails.tsinghua.edu.cn)
+
