@@ -3,7 +3,7 @@
 base_ch: 16          # UNet etc. basic channel number (network width, the larger the more complex)
 fuse_dim: 16         # Intermediate dimension after fusing element/point information
 depth: 4             # Encoder-Decoder layers/depth
-model_type: phenunet  # Model type (phenunet, onlyunet, onlycnn, phencnn.)
+model_type: phoenixunet  # Model type (phoenixunet, onlyunet, onlycnn, cnnembed.)
 # ---------------- training related --------------------
 batch_size: 8       # Training batch size
 num_epochs: 10      # Total training epoch number
