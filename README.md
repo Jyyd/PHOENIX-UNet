@@ -174,7 +174,6 @@ img   : (3, H, W)  # building mask, Gaussian plume, and source map
 meta  : (meta_dim,) # meteorological and source condition features
 label : (H, W)      # concentration field
 ```
-![alt text](figures/test.png)
 ---
 
 #### 4.4.2 Split the Dataset
@@ -291,4 +290,5 @@ If you find this repo useful, please cite our paper.
 If you have any questions or suggestions, feel free to contact:
 
 - Yudie Jianyao (Ph.D. student, jyyd23@mails.tsinghua.edu.cn)
+
 
