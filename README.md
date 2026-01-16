@@ -69,9 +69,9 @@ PHEN-UNet/
 ### 3.1 Hardware
 
 #### 3.1.1 Computer
-+ **CPU：** Intel(R) Core(TM) i7-10750H
-+ **GPU：** NVIDIA Geforce GTX 1650 Ti
-+ **RAM：** 16GB
++ **CPU：** Intel(R) Core(TM) i7-14650HX
++ **GPU：** NVIDIA GeForce GTX 4070 SUPER
++ **RAM：** 32GB
 
 #### 3.1.2 Workstation GPU
 + **CPU：** Intel(R) Xeon(R) Platinum 8488C 2.40 GHz
@@ -290,5 +290,6 @@ If you find this repo useful, please cite our paper.
 If you have any questions or suggestions, feel free to contact:
 
 - Yudie Jianyao (Ph.D. student, jyyd23@mails.tsinghua.edu.cn)
+
 
 
