@@ -3,7 +3,7 @@
 ## 1.Description
 
 **Physics-enhanced deep learning for obstacle-resolved dispersion prediction and industrial hazard assessment**
-
+![alt text](figures/architecture.png)
 ---
 ## 2.File Structure
 ```
