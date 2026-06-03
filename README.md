@@ -286,7 +286,7 @@ R2    : 0.934938
 ## 5.Citation
 
 If you find this repo useful, please cite our paper.
-- [1] Jianyao, Y. et al. Physics-enhanced deep learning for obstacle-resolved atmospheric dispersion in leakage accidents. Build. Environ. 114797 (2026) doi:10.1016/j.buildenv.2026.114797. [![DOI]](https://doi.org/10.1016/j.buildenv.2026.114797.svg)](https://doi.org/10.1016/j.buildenv.2026.114797 (2026)).
+- [1] Jianyao, Y. et al. Physics-enhanced deep learning for obstacle-resolved atmospheric dispersion in leakage accidents. Build. Environ. 114797 (2026) doi:10.1016/j.buildenv.2026.114797. (https://doi.org/10.1016/j.buildenv.2026.114797 (2026)).
 - [2] Jianyao, . yudie ., & Zhang, X. (2025). 5min_m_apss_Data (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17008799. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17008799.svg)](https://doi.org/10.5281/zenodo.17008799 (2025)).
 
 ---
